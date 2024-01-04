@@ -1,5 +1,6 @@
 contexttimer
-decord
+# decord
+eva-decord # require for M1 mac book
 diffusers<=0.16.0
 einops>=0.4.1
 fairscale==0.4.4
@@ -24,7 +25,8 @@ timm==0.4.12
 torch>=1.10.0
 torchvision
 tqdm
-transformers==4.33.2
+# transformers==4.33.2
+transformers==4.25.0 # Change to version 4.25.0 instead of the original version 4.33.2
 webdataset
 wheel
 torchaudio
@@ -35,5 +37,6 @@ peft
 
 easydict==1.9
 pyyaml_env_tag==0.1
-open3d==0.13.0
+# open3d==0.13.0
+open3d==0.14.1 # 0.13.0 doesn't exist anymore, so need to change to 0.14.1
 h5py
